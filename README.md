@@ -15,3 +15,11 @@ This operator is a test using [operator-sdk](https://sdk.operatorframework.io/do
 $ operator-sdk init --project-name <name> --repo <url> [--domain <mydomain>]
 ```
 
+
+## Create controller
+Note : `controller` are the brain of an `operator`, they loop insinde `kubernetes` to apply your desir configuration.
+
+```
+$ operator-sdk create api --group <target_group> --version <api_version> --kind <api_kind> --resource --controller
+```
+
