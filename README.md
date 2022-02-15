@@ -6,9 +6,9 @@ This operator is a test using [operator-sdk](https://sdk.operatorframework.io/do
 
 ## Roadmap
 
-[x] initialize project 
-[ ] create api
-[ ] create CI with github action
+:white_check_mark: initialize project 
+:white_large_square: create api
+:white_large_square: create CI with github action
 
 ## Setup project
 
