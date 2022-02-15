@@ -7,7 +7,7 @@ This operator is a test using [operator-sdk](https://sdk.operatorframework.io/do
 ## Roadmap
 
 :white_check_mark: initialize project 
-:white_large_square: create api
+[ ] create api
 :white_large_square: create CI with github action
 
 ## Setup project
