@@ -23,3 +23,7 @@ $ operator-sdk init --project-name <name> --repo <url> [--domain <mydomain>]
 $ operator-sdk create api --group <target_group> --version <api_version> --kind <api_kind> --resource --controller
 ```
 
+
+## Resources
+[operator-sdk documentation](https://sdk.operatorframework.io/docs/)
+[Groups version and Kinds cheatsheets](https://book.kubebuilder.io/cronjob-tutorial/gvks.html)
