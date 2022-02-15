@@ -2,7 +2,7 @@
 
 ## Description
 
-This operator is a test using `operator-sdk`. The main purpose here is to test this sdk, learn to build an operator and keep track of everthing.
+This operator is a test using [operator-sdk](https://sdk.operatorframework.io/docs/). The main purpose here is to test this sdk, learn to build an operator and keep track of everthing.
 
 ## Roadmap
 
