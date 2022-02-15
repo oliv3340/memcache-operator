@@ -23,6 +23,23 @@ $ operator-sdk init --project-name <name> --repo <url> [--domain <mydomain>]
 $ operator-sdk create api --group <target_group> --version <api_version> --kind <api_kind> --resource --controller
 ```
 
+Then you can start build your api
+
+## Cheatsheet
+
+### Define API
+After editing `*_types.go` files run :
+```
+$ make generate
+```
+This will generate deepcopy files ensure our API’s Go type definitions implement the `runtime.Object` interface that all Kind types must implement
+
+### Generate CRDs
+
+After API definition run :
+```
+$ make manifests
+```
 
 ## Resources
 [operator-sdk documentation](https://sdk.operatorframework.io/docs/)
